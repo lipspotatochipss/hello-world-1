@@ -1,10 +1,12 @@
 #include<stdio.h>
 int main()
 {
-  int a,b,c;
+  int a,b,c,d;
   printf("enter the number\n");
   scanf("%d%d",&a,&b);
   c=a*b;
-  printf("the product is:%d\n"c);
+  d=a+b;
+  printf("sum is:%d\n",d);
+  printf("the product is:%d\n",c);
   return 0;
 }
